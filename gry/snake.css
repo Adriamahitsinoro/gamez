@@ -1,0 +1,61 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  background-color: #005080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas{
+  border: 3px solid white;
+  background-color: black;
+}
+#punktacja{
+  background-color: lightblue;
+  width: 100px;
+  position: absolute;
+  top: 730px;
+  left: 900px;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+#title{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 60px;
+  position: absolute;
+  top: 10px;
+}
+#punkty{
+  color:black;
+  position:absolute;
+  left:75px;
+  bottom: 34px;
+}
+#rekord{
+  color: black;
+  position:absolute;
+  left:75px;
+  bottom: 0px;
+}
+#back{
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  font-family: serif;
+  text-align: center;
+  background-color: rgb(40.31% 0.52% 20.54%);
+  border-radius: 50%;
+  transition: 1.2s;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 900px;
+}
+a :hover{
+  font-size: 18px;
+  cursor: pointer;
+}
